@@ -133,5 +133,26 @@
         </div>
       </header>
     </main>
+    <section class="Write-tweet">
+      <h1>Write a tweet</h1>
+      <form action="a" method="POST">
+        <img src="#" alt="@yoonmin" />
+        <textarea placeholder="What's happening?" maxlength="280"></textarea>
+        <input type="file" multiple accept="image/*,video/*" />
+        <!--style 요소 추가가 안된다-->
+        <button type="button" aria-label="Search GIFs"></button>
+        <button type="button" aria-label="Create a poll">
+          <i class="fa-regular fa-square-poll-horizontal"></i>
+        </button>
+        <button type="button" aria-label="Choose emoji">
+          <i class="fa-regular fa-face-grin"></i>
+        </button>
+        <strong aria-label="0 out of 280 characters"> </strong>
+        <button type="button" aria-label="Add another Tweet">
+          <i class="fa-regular fa-circle-plus"></i>
+        </button>
+        <button type="submit">Tweet</button>
+      </form>
+    </section>
   </body>
 </html>
