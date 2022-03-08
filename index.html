@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=dvice-width,inital-scale=1.0" />
-    <title>Twitter Cloning</title>
     <link rel="stylesheet" href="styles.css" />
+    <title>Twitter Cloning</title>
     <script
       src="https://kit.fontawesome.com/869f10c14c.js"
       crossorigin="anonymous"
@@ -132,123 +132,116 @@
           <a href=""><i class="fas fa-cog"></i>View content perferences</a>
         </div>
       </header>
+      <section class="Write-tweet">
+        <h1>Write a tweet</h1>
+        <form action="a" method="POST">
+          <img src="#" alt="@yoonmin" />
+          <textarea placeholder="What's happening?" maxlength="280"></textarea>
+          <input type="file" multiple accept="image/*,video/*" />
+          <!--style 요소 추가가 안된다-->
+          <button type="button" aria-label="Search GIFs"></button>
+          <button type="button" aria-label="Create a poll">
+            <i class="fa-regular fa-square-poll-horizontal"></i>
+          </button>
+          <button type="button" aria-label="Choose emoji">
+            <i class="fa-regular fa-face-grin"></i>
+          </button>
+          <strong aria-label="0 out of 280 characters"> </strong>
+          <button type="button" aria-label="Add another Tweet">
+            <i class="fa-regular fa-circle-plus"></i>
+          </button>
+          <button type="submit">Tweet</button>
+        </form>
+      </section>
+      <section class="Time-Line">
+        <h1>Twiter time line</h1>
+        <ol>          
+          <article class="Tweet">
+            <!--news,blog등 정보 컨텐츠가 완결성이 있는 경우 사용한다.-->
+            <h1>A Tweet From Yoonmin</h1>
+            <header>
+              <a href="a"><img src="#" alt="yoonmin" /></a>
+              <h2><a href="a">Yoonmin</a></h2>
+              <dl>
+                <div>
+                  <dt>Username</dt>
+                  <dd><a href="">@yoonmin </a></dd>
+                </div>
+              </dl>
+              <dl>
+                <div>
+                  <dt>Posted</dt>
+                  <dd><a href="">Doc 25</a></dd>
+                </div>
+              </dl>
+              <button type="button" aria-label="option">
+                <i class="fa-solid fa-angle-down">
+                  <div>
+                    <button type="button">
+                      <i class="fas fa-frown">
+                        Show less often
+                      </i>
+                    </button>
+                    <button type="button">
+                      <i class="fas fa-code">
+                        Embed Tweet
+                      </i>
+                    </button>
+                    <button type="button">
+                      <i class="fas fa-users">
+                        Unfollow @anonymouskim
+                      </i>
+                    </button>
+                    <button type="button">
+                      <i class="fas fa-volume-mute">
+                        Mute @anonymouskim
+                       </i>
+                    </button>
+                    <button type="button">
+                      <i class="fas fa-ban">
+                        Block @anonymouskim
+                      </i>
+                    </button>
+                    <button type="button">
+                      <i class="fas fa-flag-alt">
+                        Report Tweet
+                      </i>
+                    </button>
+                  </div>
+                </i>
+              </button>
+            </header>
+            <p>
+              영어를 더 잘 하고싶다. 그러나 공부를 하고 싶지는 않다. 내 삶의 모든 것이
+              이런 식으로 망해왔다
+            </p>
+            <footer>
+              <button type="button">
+                <span class="sr-only">Tweet yout reply</span>
+                <strong aria-label="3 replied">3</strong>
+              </button>
+              <button type="button">
+                <span class="sr-only">Retweet</span>
+                <strong aria-label="3 Retweeted">3</strong>
+              </button>
+              <div>
+                <button type="button">Retweet</button>
+                <button type="button">Retweet with comment</button>
+              </div>
+              <button type="button">
+                <span class="sr-only">Like this tweet</span>
+                <strong aria-label="100 liked">100</strong>
+              </button>
+              <button type="button"><span class="sr-only">Share</span></button>
+              <div>
+                <button type="button">Add Tweet to Bookmarks</button>
+                <button type="button">Copy link to Tweet</button>
+              </div>
+            </footer>
+          </article>
+        </ol>
+      </section>
     </main>
-    <section class="Write-tweet">
-      <h1>Write a tweet</h1>
-      <form action="a" method="POST">
-        <img src="#" alt="@yoonmin" />
-        <textarea placeholder="What's happening?" maxlength="280"></textarea>
-        <input type="file" multiple accept="image/*,video/*" />
-        <!--style 요소 추가가 안된다-->
-        <button type="button" aria-label="Search GIFs"></button>
-        <button type="button" aria-label="Create a poll">
-          <i class="fa-regular fa-square-poll-horizontal"></i>
-        </button>
-        <button type="button" aria-label="Choose emoji">
-          <i class="fa-regular fa-face-grin"></i>
-        </button>
-        <strong aria-label="0 out of 280 characters"> </strong>
-        <button type="button" aria-label="Add another Tweet">
-          <i class="fa-regular fa-circle-plus"></i>
-        </button>
-        <button type="submit">Tweet</button>
-      </form>
-    </section>
-    <section class="Time-Line">
-      <h1>Twiter time line</h1>
-      <ol>
-        <li><!--Tweet--></li>
-        <li><!--Tweet--></li>
-        <li><!--Tweet--></li>
-        <li><!--Tweet--></li>
-        <li><!--Tweet--></li>
-        <li><!--Tweet--></li>
-        <li><!--Tweet--></li>
-      </ol>
-    </section>
-    <article class="Tweet">
-      <!--news,blog등 정보 컨텐츠가 완결성이 있는 경우 사용한다.-->
-      <h1>A Tweet From Yoonmin</h1>
-      <header>
-        <a href="a"><img src="#" alt="yoonmin" /></a>
-        <h2><a href="a">Yoonmin</a></h2>
-        <dl>
-          <div>
-            <dt>Username</dt>
-            <dd><a href="">@yoonmin </a></dd>
-          </div>
-        </dl>
-        <dl>
-          <div>
-            <dt>Posted</dt>
-            <dd><a href="">Doc 25</a></dd>
-          </div>
-        </dl>
-        <button type="button" aria-label="option">
-          <i class="fa-solid fa-angle-down">
-            <div>
-              <button type="button">
-                <i class="fas fa-frown">
-                  Show less often
-                </i>
-              </button>
-              <button type="button">
-                <i class="fas fa-code">
-                  Embed Tweet
-                </i>
-              </button>
-              <button type="button">
-                <i class="fas fa-users">
-                  Unfollow @anonymouskim
-                </i>
-              </button>
-              <button type="button">
-                <i class="fas fa-volume-mute">
-                  Mute @anonymouskim
-                </i>
-              </button>
-              <button type="button">
-                <i class="fas fa-ban">
-                  Block @anonymouskim
-                </i>
-              </button>
-              <button type="button">
-                <i class="fas fa-flag-alt">
-                  Report Tweet
-                </i>
-              </button>
-            </div>
-          </i>
-        </button>
-      </header>
-      <p>
-        영어를 더 잘 하고싶다. 그러나 공부를 하고 싶지는 않다. 내 삶의 모든 것이
-        이런 식으로 망해왔다
-      </p>
-      <footer>
-        <button type="button">
-          <span class="sr-only">Tweet yout reply</span>
-          <strong aria-label="3 replied">3</strong>
-        </button>
-        <button type="button">
-          <span class="sr-only">Retweet</span>
-          <strong aria-label="3 Retweeted">3</strong>
-        </button>
-        <div>
-          <button type="button">Retweet</button>
-          <button type="button">Retweet with comment</button>
-        </div>
-        <button type="button">
-          <span class="sr-only">Like this tweet</span>
-          <strong aria-label="100 liked">100</strong>
-        </button>
-        <button type="button"><span class="sr-only">Share</span></button>
-        <div>
-          <button type="button">Add Tweet to Bookmarks</button>
-          <button type="button">Copy link to Tweet</button>
-        </div>
-      </footer>
-    </article>
     <aside>
       <header>
         <h1>Worldwide trends</h1>
@@ -256,7 +249,6 @@
           <i class="fas fa-cog"></i>
         </button>
       </header>
-
       <ol>
         <li>
           <button type="button">
